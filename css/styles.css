@@ -166,8 +166,7 @@ body {
 }
 
 /*----- DESCRIPTION -----*/
-/*.description {
-}*/
+
 .decription-list {
     display: flex;
     flex-wrap: wrap;
