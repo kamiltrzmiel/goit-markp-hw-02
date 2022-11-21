@@ -14,7 +14,7 @@
 /*--Global Styles--*/
 body {
     font-family: "Roboto", sans-serif;
-    background-color: var(--page-color-background);
+    /*background-color: var(--page-color-background);*/
 }
 
 .wrapper {
@@ -97,6 +97,12 @@ body {
     color: var(--page-color-black);
 }
 
+.nav-list-item-link:hover, 
+.nav-list-item-link:focus, 
+.nav-list-item-link:active {
+  color: var(--page-color-blue);
+}
+
 /*-----RIGHT-UP-CONTACT-----*/
 .right-up-contact {
     margin-top: 32px;
@@ -121,15 +127,13 @@ body {
   color: var(--page-color-blue);
 }
 
-
-
 /*-----MOTTO-----*/
 .motto {
     height: 600px;
     background-color: var(--page-color-back);
     text-align: center;
     
-}
+}   
 .motto-frame {
     margin: auto;
     width: 80%;
@@ -178,7 +182,6 @@ body {
 }
 .decription-text {
     font-size: 14px;
-    font-weight: 400;
     line-height: 171%;
     letter-spacing: 0.03em;
     color: var(--page-color-grey);
@@ -230,7 +233,6 @@ background-color: var(--page-color-team);
 }
 .team-member-desc {
     font-size: 16px;
-    font-weight: 400;
     line-height: 19px;
     text-align: center;
     letter-spacing: 0.03em;
@@ -291,7 +293,6 @@ list-style: none;
 }
 .offer-pic-desc-lower {
     font-size: 16px;
-    font-weight: 400;
     line-height: 30px;
     color: var(--page-color-grey);
 }
